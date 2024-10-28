@@ -1,0 +1,103 @@
+html, body 
+body{
+background-image:url(flowers.png);
+}
+*{
+  box-sizing: border-box;
+ }
+*
+.banner{
+  color: #ffffff;
+  background-color:#000000;
+  margin: 15px;
+  padding: 10px;
+  height: 260px;
+  border: 3px solid#ffffff;
+  box-shadow: 8px 8px 8px 8px#000000;
+  text-align: left;
+  font-size: 1em;
+  text-shadow: 3px 3px 3px 3px #ffffff;
+  font-family: fantasy;
+  text-transform: capitalize;
+}
+#logo{
+  width:150px ;
+  border: 1px solid black;
+  position: absolute;
+  top: 30px;
+  right: 50px;
+}
+
+.container{
+  color: #ffffff;
+  border: 5px solid white;
+  margin: 15px;
+  padding: 10px;
+  height:250px ;
+  background-color: 255, 0, 0, 0.5; 
+  box-shadow: 1px 10px 10px 10px#000000;
+
+  }
+#cfu1{
+  border:2px solid #4d0000;
+  padding: 5px;
+  display: block;
+  margin:1px ;
+
+}
+#cfu2{
+  border:2px solid #ff0000;
+  padding: 5px;
+  display: block;
+  margin:1px ;
+}
+#cfu3{
+  border:2px solid #4d0000;
+  padding: 5px;
+  display: block;
+  margin:1px ;
+}  
+#cfu4{
+  border:2px solid #ff0000;
+  padding: 5px;
+  display: block;
+  margin:1px ;
+}
+#overwatch{
+  border:2px solid #ff0000;
+  padding: 5px;
+  display: block;
+  margin:1px ;
+}
+#anime{
+  border:2px solid #ff0000;
+  padding: 5px;
+  display: block;
+  margin:1px ;
+}
+#art{
+  border:2px solid #ff0000;
+  padding: 5px;
+  display: block;
+  margin:1px ;
+}
+#volleyball{
+  border:2px solid #ff0000;
+  padding: 5px;
+  display: block;
+  margin:1px ;
+}
+  .wave{ 
+ background-image: repeating-linear-gradient(#000000, #FFFFFF); 
+ height: 45px; 
+ overflow: hidden; 
+ width: 80%; 
+ position: relative; 
+ left: 10%; 
+ transition: height 10s; 
+}
+.wave:hover{
+  height: 5050px;
+  z-index: 1;
+
+}
