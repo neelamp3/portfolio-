@@ -7,7 +7,7 @@ background-image:url(IMG_7219.jpg);
  }
 *
 .banner{
-  color: #ffffff;
+  color: #000000;
   background-color:#000000;
   margin: 15px;
   padding: 10px;
@@ -97,7 +97,7 @@ background-image:url(IMG_7219.jpg);
  transition: height 10s; 
 }
 .wave:hover{
-  height: 5050px;
+  height: 150px;
   z-index: 1;
 
 }
