@@ -1,7 +1,7 @@
 html, body 
 body{
 background-image:url(IMG_7219.jpg);
-color:# 8A2BE2;
+color:# BlueViolet;
 }
 *{
   box-sizing: border-box;
@@ -29,7 +29,7 @@ color:# 8A2BE2;
 }
 
 .container{
-  color: 8A2BE2;
+  color: BlueViolet;
   border: 5px solid white;
   margin: 15px;
   padding: 10px;
@@ -88,7 +88,7 @@ color:# 8A2BE2;
   margin:1px ;
 }
   .wave{ 
- background-image: repeating-linear-gradient(#000000, #8A2BE2); 
+ background-image: repeating-linear-gradient(#000000, #BlueViolet); 
  height: 45px; 
  overflow: hidden; 
  width: 80%; 
