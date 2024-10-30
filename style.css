@@ -1,19 +1,19 @@
 html, body 
 body{
 background-image:url(IMG_7219.jpg);
-color:# BlueViolet;
 }
 *{
   box-sizing: border-box;
  }
 *
 .banner{
-  background-color: #000000 ;
+  color: #8000ff;
+  background-color:#000000;
   margin: 15px;
   padding: 10px;
   height: 260px;
   border: 3px solid#ffffff;
-  box-shadow: 8px 8px 8px 8px # 000000;
+  box-shadow: 8px 8px 8px 8px#000000;
   text-align: left;
   font-size: 1em;
   text-shadow: 3px 3px 3px 3px #ffffff;
@@ -29,7 +29,7 @@ color:# BlueViolet;
 }
 
 .container{
-  color: BlueViolet;
+  color: #ffffff;
   border: 5px solid white;
   margin: 15px;
   padding: 10px;
@@ -39,56 +39,56 @@ color:# BlueViolet;
 
   }
 #cfu1{
-  border:2px solid #4d0000;
+  border:2px solid #8000ff;
   padding: 5px;
   display: block;
   margin:1px ;
 
 }
 #cfu2{
-  border:2px solid #ff0000;
+  border:2px solid #8000ff;
   padding: 5px;
   display: block;
   margin:1px ;
 }
 #cfu3{
-  border:2px solid #4d0000;
+  border:2px solid #8000ff;
   padding: 5px;
   display: block;
   margin:1px ;
 }  
 #cfu4{
-  border:2px solid #ff0000;
+  border:2px solid #8000ff;
   padding: 5px;
   display: block;
   margin:1px ;
 }
 #overwatch{
-  border:2px solid #ff0000;
+  border:2px solid #8000ff;
   padding: 5px;
   display: block;
   margin:1px ;
 }
 #anime{
-  border:2px solid #ff0000;
+  border:2px solid #8000ff;
   padding: 5px;
   display: block;
   margin:1px ;
 }
 #art{
-  border:2px solid #ff0000;
+  border:2px solid #8000ff;
   padding: 5px;
   display: block;
   margin:1px ;
 }
 #volleyball{
-  border:2px solid #ff0000;
+  border:2px solid #8000ff;
   padding: 5px;
   display: block;
   margin:1px ;
 }
   .wave{ 
- background-image: repeating-linear-gradient(#000000, #BlueViolet); 
+ background-image: repeating-linear-gradient(#000000, #8000ff); 
  height: 45px; 
  overflow: hidden; 
  width: 80%; 
@@ -97,7 +97,8 @@ color:# BlueViolet;
  transition: height 10s; 
 }
 .wave:hover{
-  height: 150px;
+  height: 5050px;
   z-index: 1;
+}
 
 }
