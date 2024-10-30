@@ -96,7 +96,3 @@ background-image:url(IMG_7219.jpg);
  left: 10%; 
  transition: height 10s; 
 }
-.wave:hover{
-  height: 40px;
-  z-index: 1;
-}
