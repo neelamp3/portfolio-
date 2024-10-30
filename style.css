@@ -7,7 +7,7 @@ background-image:url(IMG_7219.jpg);
  }
 *
 .banner{
-  color: #8000ff;
+  color: ffffff;
   background-color:#000000;
   margin: 15px;
   padding: 10px;
@@ -88,7 +88,7 @@ background-image:url(IMG_7219.jpg);
   margin:1px ;
 }
   .wave{ 
- background-image: repeating-linear-gradient(#000000, #8000ff); 
+ background-image: repeating-linear-gradient(#000000, #ffffff);  
  height: 45px; 
  overflow: hidden; 
  width: 80%; 
