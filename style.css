@@ -88,7 +88,7 @@ background-image:url(IMG_7219.jpg);
   margin:1px ;
 }
   .wave{ 
- background-image: repeating-linear-gradient(#000000, #ffffff);  
+ background-image:url(IMG_7562.jpg);   
  height: 45px; 
  overflow: hidden; 
  width: 80%; 
@@ -99,6 +99,4 @@ background-image:url(IMG_7219.jpg);
 .wave:hover{
   height: 5050px;
   z-index: 1;
-}
-
 }
