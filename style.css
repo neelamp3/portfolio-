@@ -27,7 +27,25 @@ background-image:url(IMG_7219.jpg);
   top: 30px;
   right: 50px;
 }
+.navbar {
+display: flex;
+background-color: #333;
+padding: 10px;
+justify-content: space-around;
+}
+        
+.navbar a {
+color: white;
+text-decoration: none;
+padding: 14px 20px;
+font-size: 16px;
+transition: background 0.3s;
+}
 
+        
+.navbar a:hover {
+background-color: #555;
+}
 .container{
   color: #ffffff;
   border: 5px solid white;
