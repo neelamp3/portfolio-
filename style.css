@@ -63,6 +63,12 @@ background-image:url(IMG_7219.jpg);
   display: block;
   margin:1px ;
 }
+#itsumi{
+  border:2px solid #8000ff;
+  padding: 5px;
+  display: block;
+  margin:1px ;
+}
 #overwatch{
   border:2px solid #8000ff;
   padding: 5px;
