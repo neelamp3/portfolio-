@@ -1,134 +1,102 @@
-html, body 
-body{
-background-image:url(IMG_7219.jpg);
-}
-*{
+* {
   box-sizing: border-box;
- }
-*
-.banner{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(IMG_7219.jpg);
+  background-size: cover;
+  background-attachment: fixed;
   color: #ffffff;
-  background-color:#000000;
-  margin: 15px;
-  padding: 10px;
-  height: 260px;
-  border: 3px solid#ffffff;
-  box-shadow: 8px 8px 8px 8px#000000;
+}
+
+/* Banner */
+.banner {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 15px;
   text-align: left;
-  font-size: 1em;
-  text-shadow: 3px 3px 3px 3px #ffffff;
   font-family: fantasy;
   text-transform: capitalize;
-}
-#logo{
-  width:150px ;
-  border: 1px solid black;
-  position: absolute;
-  top: 30px;
-  right: 50px;
-}
-body {
-font-family: Arial, sans-serif;
-margin: 0;
-padding: 0;
+  text-shadow: 3px 3px 3px #ffffff;
+  border: 3px solid #ffffff;
+  box-shadow: 8px 8px 8px #000000;
 }
 
+/* Navigation Bar */
 .navbar {
-background-color: #333;
-overflow: hidden;
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  padding: 10px 0;
 }
 
-.navbar .wave {
-float: left;
-display: block;
-color: white;
-text-align: center;
-padding: 14px 20px;
-text-decoration: none;
-font-size: 17px;
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+  font-size: 17px;
+  transition: background-color 0.3s;
+  border: 2px solid transparent;
 }
 
-.navbar .wave:hover {
-background-color: #575757;
+.navbar a:hover {
+  background-color: #575757;
+  border-color: #8000ff;
 }
 
-/* Clear floats */
-.navbar::after {
-clear: both;
-display: table;
-}
-
-.container{
+/* Container */
+.container {
+  background-color: rgba(255, 0, 0, 0.5);
   color: #ffffff;
-  border: 5px solid white;
-  margin: 15px;
-  padding: 10px;
-  height:10px ;
-  background-color: 255, 0, 0, 0.5; 
-  box-shadow: 1px 10px 10px 10px#000000;
+  border: 5px solid #ffffff;
+  margin: 30px auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 1px 10px 10px #000000;
+  text-align: left;
+}
 
-  }
-#cfu1{
-  border:2px solid #8000ff;
-  padding: 5px;
-  display: block;
-  margin:1px ;
+/* Info Sections */
+.info-section {
+  border: 2px solid #8000ff;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 4px;
+}
 
+.info-section h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #ffccff;
 }
-#cfu2{
-  border:2px solid #8000ff;
+
+/* Image Styling */
+img {
+  border: 2px solid #ffffff;
+  border-radius: 4px;
+  margin: 15px 0;
+  display: block;
+}
+
+/* Individual Section IDs */
+#cfu1, #cfu2, #cfu3, #cfu4, #itsumi, #overwatch, #anime, #art, #volleyball {
+  border: 2px solid #8000ff;
   padding: 5px;
   display: block;
-  margin:1px ;
+  margin: 1px;
 }
-#cfu3{
-  border:2px solid #8000ff;
-  padding: 5px;
-  display: block;
-  margin:1px ;
-}  
-#cfu4{
-  border:2px solid #8000ff;
-  padding: 5px;
-  display: block;
-  margin:1px ;
-}
-#itsumi{
-  border:2px solid #8000ff;
-  padding: 5px;
-  display: block;
-  margin:1px ;
-}
-#overwatch{
-  border:2px solid #8000ff;
-  padding: 5px;
-  display: block;
-  margin:1px ;
-}
-#anime{
-  border:2px solid #8000ff;
-  padding: 5px;
-  display: block;
-  margin:1px ;
-}
-#art{
-  border:2px solid #8000ff;
-  padding: 5px;
-  display: block;
-  margin:1px ;
-}
-#volleyball{
-  border:2px solid #8000ff;
-  padding: 5px;
-  display: block;
-  margin:1px ;
-}
-  .wave{ 
- background-color:#000000;
- height: 75px; 
- overflow: hidden; 
- width: 80%; 
- position: relative; 
- left: 10%; 
- transition: height 10s; 
+
+.wave {
+  background-color: #000000;
+  height: 75px;
+  overflow: hidden;
+  width: 80%;
+  position: relative;
+  left: 10%;
+  transition: height 10s;
 }
