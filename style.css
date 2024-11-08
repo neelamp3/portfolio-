@@ -98,7 +98,18 @@ img {
     color: white;
     text-decoration: none;
 }
-
+#cfu1:hover {
+    background-color: #575757;
+}
+#cfu2:hover {
+    background-color: #575757;
+}
+#cfu3:hover {
+    background-color: #575757;
+}
+#cfu4:hover {
+    background-color: #575757;
+}
 #cfu5:hover {
     background-color: #575757;
 }
