@@ -132,7 +132,7 @@ img {
     justify-content: center;
     gap: 10px;
     font-size: 1.2em;
-  color: #ffccff;
+    color: #ffccff;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
@@ -141,9 +141,4 @@ img {
 .email-icon {
     font-size: 1.5em;
     color: #8000ff;
-}
-
-
-.email-link:hover {
-    color: #ffffff;
 }
