@@ -100,12 +100,19 @@ img {
   left: 10%;
   transition: height 10s;
 }
+
+
+.contact-info h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #ffccff;
+}
 .contact-info {
     background-color: rgba(0, 0, 0, 0.7);
     padding: 30px;
     margin: 30px auto;
     width: 80%;
-    min-height: 900px; /* Increase height */
+    min-height: 900px;
     max-width: 600px;
     border: 2px solid #8000ff;
     border-radius: 8px;
@@ -114,32 +121,35 @@ img {
     box-shadow: 1px 10px 10px #000000;
 }
 
-.contact-info h2 {
-    font-size: 2em;
-    margin-bottom: 15px;
-    color: #ffccff;
-}
-
-.contact-info p {
-    font-size: 1em;
-    margin-bottom: 20px;
-    color: #cccccc;
-}
-
-/* Email Info Styling */
+/* Style for email-info container */
 .email-info {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Each email section styled separately */
+.email-section {
+    margin-bottom: 20px; /* Space between each email section */
+    text-align: left;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Style for email titles and icons */
+.email-section h3 {
     font-size: 1.2em;
     color: #ffccff;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease;
+    margin-bottom: 5px;
 }
 
 .email-icon {
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: #8000ff;
+    margin-right: 8px;
+}
+
+.email-section p {
+    margin: 0;
+    font-size: 1em;
+    color: #ffffff;
+    display: inline; /* Keeps icon and text aligned */
 }
