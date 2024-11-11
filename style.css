@@ -176,3 +176,39 @@ img {
     color: #ffffff;
     display: inline; /* Keeps icon and text aligned */
 }
+/* Gallery container */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px;
+}
+
+/* Each image box */
+.image-box {
+    width: 200px; /* Set a fixed width for each image box */
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 2px solid #8000ff;
+    border-radius: 8px;
+    padding: 10px;
+    color: #ffffff;
+    box-shadow: 1px 10px 10px #000000;
+}
+
+/* Styling for images */
+.image-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Description styling */
+.description {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #ffffff;
+}
+
+
