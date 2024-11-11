@@ -218,7 +218,14 @@ img {
     }
     
     
-
+#project1, #project2, #project3, #project4, #project5
+  border: 2px solid #8000ff;
+  padding: 5px;
+  display: block;
+  margin: 1px;
+  background-color: rgba(67, 39, 99, 0.5);
+  color: #ffffff;
+}
 
 
 /* On hover, allow scrolling */
