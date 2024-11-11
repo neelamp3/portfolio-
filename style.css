@@ -231,15 +231,15 @@ img {
     border-radius: 10px;
     background-color: #eef5ff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-height: 200px;  /* Limits the height */
+    max-height: 200px;  /* Initial limited height */
     overflow: hidden;   /* Hides overflow initially */
     transition: max-height 0.3s ease; /* Smooth transition */
 }
 
-/* On hover, allow scrolling */
-.wave:hover {
-    max-height: 400px; /* Expands the height on hover */
-    overflow-y: auto; /* Enables vertical scrolling if needed */
+/* Expanded state on click */
+.wave.expanded {
+    max-height: 400px; /* Expands the height */
+    overflow-y: auto; /* Enables scrolling if content overflows */
 }
 
 /* Project header styling */
