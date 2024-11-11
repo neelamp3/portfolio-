@@ -89,7 +89,7 @@ img {
   padding: 5px;
   display: block;
   margin: 1px;
-  background-color: rgba(255, 0, 0, 0.5);
+  
 }
 #cfu5 {
     border: 2px solid #8000ff;
@@ -98,7 +98,7 @@ img {
     margin: 1px;
     color: white;
     text-decoration: none;
-    background-color: rgba(255, 0, 0, 0.5);
+    
 }
 #cfu1:hover {
     background-color: #575757;
@@ -117,7 +117,7 @@ img {
 }
 
 .wave {
-  background-color: #000000;
+  background-color: rgba(138, 86, 233, 0.8);
   height: 75px;
   overflow: hidden;
   width: 80%;
@@ -218,18 +218,7 @@ img {
     
     
 
-/* Wave project styling */
-.wave project{
-    margin-bottom: 30px;
-    padding: 20px;
-    border: 2px solid #d9d9d9;
-    border-radius: 10px;
-    background-color: #eef5ff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-height: 200px;  /* Limits the height */
-    overflow: hidden;   /* Hides overflow initially */
-    transition: max-height 0.3s ease; /* Smooth transition */
-}
+
 
 /* On hover, allow scrolling */
 .wave:hover {
