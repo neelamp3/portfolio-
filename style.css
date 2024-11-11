@@ -90,14 +90,14 @@ img {
   display: block;
   margin: 1px;
   background-color: rgba(67, 39, 99, 0.5);
-  color: #000000;
+  color: #ffffff;
 }
 #cfu5 {
     border: 2px solid #8000ff;
     padding: 5px;
     display: block;
     margin: 1px;
-    color: #000000;
+    color: #ffffff;
     text-decoration: none;
     background-color: rgba(67, 39, 99, 0.5);
 }
@@ -119,6 +119,7 @@ img {
 
 .wave {
   background-color: rgba(67, 39, 99, 0.5);
+  color: #ffffff;
   height: 75px;
   overflow: hidden;
   width: 80%;
