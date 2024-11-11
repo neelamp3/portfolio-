@@ -34,7 +34,7 @@ body {
 }
 
 .navbar a {
-  color: white;
+  color: #ffffff;
   text-decoration: none;
   padding: 14px 20px;
   font-size: 17px;
@@ -72,7 +72,7 @@ body {
 .info-section h2 {
   font-size: 1.5em;
   margin-bottom: 10px;
-  color: #ffccff;
+  color: #ffffff;
 }
 
 /* Image Styling */
@@ -93,28 +93,16 @@ img {
   color: #ffffff;
 }
 #cfu5 {
-    border: 2px solid #8000ff;
-    padding: 5px;
-    display: block;
-    margin: 1px;
-    color: #ffffff;
-    text-decoration: none;
-    background-color: rgba(67, 39, 99, 0.5);
+  border: 2px solid #8000ff;
+  padding: 5px;
+  display: block;
+  margin: 1px;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: rgba(67, 39, 99, 0.5);
 }
-#cfu1:hover {
-    background-color: #575757;
-}
-#cfu2:hover {
-    background-color: #575757;
-}
-#cfu3:hover {
-    background-color: #575757;
-}
-#cfu4:hover {
-    background-color: #575757;
-}
-#cfu5:hover {
-    background-color: #575757;
+#cfu1:hover, #cfu2:hover, #cfu3:hover, #cfu4:hover, #cfu5:hover {
+  background-color: #575757;
 }
 
 .wave {
@@ -128,98 +116,97 @@ img {
   transition: height 10s;
 }
 
-
 .contact-info h2 {
-    font-size: 2em;
-    margin-bottom: 15px;
-    color: #ffccff;
+  font-size: 2em;
+  margin-bottom: 15px;
+  color: #ffffff;
 }
 .contact-info {
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 30px;
-    margin: 30px auto;
-    width: 80%;
-    min-height: 900px;
-    max-width: 600px;
-    border: 2px solid #8000ff;
-    border-radius: 8px;
-    color: #ffffff;
-    text-align: center;
-    box-shadow: 1px 10px 10px #000000;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  margin: 30px auto;
+  width: 80%;
+  min-height: 900px;
+  max-width: 600px;
+  border: 2px solid #8000ff;
+  border-radius: 8px;
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 1px 10px 10px #000000;
 }
 
 /* Style for email-info container */
 .email-info {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 /* Each email section styled separately */
 .email-section {
-    margin-bottom: 20px; /* Space between each email section */
-    text-align: left;
-    padding: 10px;
-    border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: left;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 /* Style for email titles and icons */
 .email-section h3 {
-    font-size: 1.2em;
-    color: #ffccff;
-    margin-bottom: 5px;
+  font-size: 1.2em;
+  color: #ffffff;
+  margin-bottom: 5px;
 }
 
 .email-icon {
-    font-size: 1.2em;
-    color: #8000ff;
-    margin-right: 8px;
+  font-size: 1.2em;
+  color: #ffffff;
+  margin-right: 8px;
 }
 
 .email-section p {
-    margin: 0;
-    font-size: 1em;
-    color: #ffffff;
-    display: inline; /* Keeps icon and text aligned */
+  margin: 0;
+  font-size: 1em;
+  color: #ffffff;
+  display: inline;
 }
+
 /* Gallery container */
 .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px;
 }
 
 /* Each image box */
 .image-box {
-    width: 200px; /* Set a fixed width for each image box */
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.7);
-    border: 2px solid #8000ff;
-    border-radius: 8px;
-    padding: 10px;
-    color: #ffffff;
-    box-shadow: 1px 10px 10px #000000;
+  width: 200px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 2px solid #8000ff;
+  border-radius: 8px;
+  padding: 10px;
+  color: #ffffff;
+  box-shadow: 1px 10px 10px #000000;
 }
 
 /* Styling for images */
 .image-box img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
 }
 
 /* Description styling */
 .description {
-    color: #ffffff;
-    font-size: 12px; 
-    border: 1px solid #333; 
-    padding: 5px; 
-    border-radius: 5px; 
-    margin-top: 5px; 
-    }
-    
-    
-#project1, #project2, #project3, #project4, #project5
+  color: #ffffff;
+  font-size: 12px;
+  border: 1px solid #333;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+#project1, #project2, #project3, #project4, #project5 {
   border: 2px solid #8000ff;
   padding: 5px;
   display: block;
@@ -228,41 +215,40 @@ img {
   color: #ffffff;
 }
 
-
 /* On hover, allow scrolling */
 .wave:hover {
-    max-height: 400px; /* Expands the height on hover */
-    overflow-y: auto; /* Enables vertical scrolling if needed */
+  max-height: 400px;
+  overflow-y: auto;
 }
 
 /* Project header styling */
 .wave h2 {
-    margin-top: 0;
-    font-size: 1.6em;
-    color: #333;
+  margin-top: 0;
+  font-size: 1.6em;
+  color: #ffffff;
 }
 
 /* Link styling within wave */
 .wave a {
-    color: #0056b3;
-    text-decoration: none;
-    font-weight: bold;
-    margin-right: 15px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 15px;
 }
 
 .wave a:hover {
-    color: #003366;
-    text-decoration: underline;
+  color: #ffffff;
+  text-decoration: underline;
 }
 
 /* Paragraph styling within wave */
 .wave p {
-    margin: 15px 0 0;
-    line-height: 1.6;
-    color: #444;
+  margin: 15px 0 0;
+  line-height: 1.6;
+  color: #ffffff;
 }
 
 /* Adjusted styling for links and hover effects */
 .wave a:visited {
-    color: #7a7a7a;
+  color: #ffffff;
 }
