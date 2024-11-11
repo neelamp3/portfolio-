@@ -211,4 +211,21 @@ img {
     color: #ffffff;
 }
 
+.gallery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .image-box {
+        flex: 1 1 150px; /* Set a base size for each image box */
+        max-width: 150px; /* Limit the maximum width of each box */
+        text-align: center;
+    }
+    .image-box img {
+        width: 100%; /* Make images responsive to the box */
+        height: auto;
+    }
+    .description {
+        font-size: 12px; /* Adjust font size for descriptions */
+    }
 
