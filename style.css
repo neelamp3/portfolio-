@@ -118,7 +118,7 @@ img {
 }
 
 .wave {
-  background-color: #8A56E9;
+  background-color: rgba(67, 39, 99, 0.5);
   height: 75px;
   overflow: hidden;
   width: 80%;
