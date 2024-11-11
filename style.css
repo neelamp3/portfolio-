@@ -206,27 +206,7 @@ img {
 
 /* Description styling */
 .description {
-    margin-top: 10px;
-    font-size: 0.9em;
-    color: #ffffff;
-}
-
-.gallery {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-    }
-    .image-box {
-        flex: 1 1 150px; /* Set a base size for each image box */
-        max-width: 150px; /* Limit the maximum width of each box */
-        text-align: center;
-    }
-    .image-box img {
-        width: 100%; /* Make images responsive to the box */
-        height: auto;
-    }
-    .description {
-        font-size: 12px; 
+    font-size: 12px; 
         border: 1px solid #333; 
         padding: 5px; 
         border-radius: 5px; 
