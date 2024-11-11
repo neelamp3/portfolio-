@@ -252,3 +252,13 @@ img {
 .wave a:visited {
   color: #ffffff;
 }
+
+p {
+  color: #ffffff; 
+  transition: color 0.3s; 
+}
+
+
+p:hover {
+  color: #ffcc00; 
+}
