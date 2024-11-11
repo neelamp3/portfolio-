@@ -216,7 +216,7 @@ img {
     
     
 /* Container styling */
-.contain2 {
+.container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
@@ -224,7 +224,7 @@ img {
 }
 
 /* Wave project styling */
-.wave {
+.wave project{
     margin-bottom: 30px;
     padding: 20px;
     border: 2px solid #d9d9d9;
