@@ -29,7 +29,7 @@ body {
 .navbar {
   display: flex;
   justify-content: center;
-  background-color: #333;
+  background-color: #575757;
   padding: 10px 0;
 }
 
@@ -89,7 +89,7 @@ img {
   padding: 5px;
   display: block;
   margin: 1px;
-  
+  background-color: rgba(67, 39, 99, 0.5);
 }
 #cfu5 {
     border: 2px solid #8000ff;
@@ -98,7 +98,7 @@ img {
     margin: 1px;
     color: white;
     text-decoration: none;
-    
+    background-color: rgba(67, 39, 99, 0.5);
 }
 #cfu1:hover {
     background-color: #575757;
