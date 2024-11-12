@@ -109,7 +109,7 @@ img {
 .wave {
   background-color: rgba(67, 39, 99, 0.5);
   color: #ffffff;
-  height: 75px;
+  height: 50px;
   overflow: hidden;
   width: 80%;
   position: relative;
@@ -193,7 +193,7 @@ img {
 
 /* Styling for images */
 .image-box img {
-  width: 150px;
+  width: 100px;
   height: auto;
   border-radius: 5px;
 }
