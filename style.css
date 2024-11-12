@@ -181,7 +181,7 @@ img {
 
 /* Each image box */
 .image-box {
-  width: 200px;
+  width: 180px;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.7);
   border: 2px solid #8000ff;
@@ -193,7 +193,7 @@ img {
 
 /* Styling for images */
 .image-box img {
-  width: 100%;
+  width: 150px;
   height: auto;
   border-radius: 5px;
 }
