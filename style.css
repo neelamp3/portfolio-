@@ -176,6 +176,7 @@ img {
   gap: 20px;
   justify-content: center;
   margin: 20px;
+  width: 500px;
 }
 
 /* Each image box */
@@ -205,6 +206,7 @@ img {
   padding: 5px;
   border-radius: 5px;
   margin-top: 5px;
+  width: 150px;
 }
 
 #project1, #project2, #project3, #project4, #project5 {
