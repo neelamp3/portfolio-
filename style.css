@@ -181,7 +181,7 @@ img {
 
 /* Each image box */
 .image-box {
-  width: 180px;
+  width: 200px;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.7);
   border: 2px solid #8000ff;
@@ -206,7 +206,8 @@ img {
   padding: 5px;
   border-radius: 5px;
   margin-top: 5px;
-  width: 150px;
+  width: 200px;
+  height: 300px;
 }
 
 #project1, #project2, #project3, #project4, #project5 {
